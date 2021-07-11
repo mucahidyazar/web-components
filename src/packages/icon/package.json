@@ -26,7 +26,7 @@
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .js,.jsx -d dist/cjs --source-maps"
   },
   "dependencies": {
-    "@mucahidyazar/util": "1.0.40"
+    "@mucahidyazar/util": "1.0.1"
   },
   "keywords": [],
   "author": "",
