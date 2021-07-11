@@ -1,6 +1,6 @@
 {
   "name": "@mucahidyazar/icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -26,7 +26,7 @@
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .js,.jsx -d dist/cjs --source-maps"
   },
   "dependencies": {
-    "@mucahidyazar/icons": "1.0.1"
+    "@mucahidyazar/icons": "1.0.2"
   },
   "keywords": [],
   "author": "",
