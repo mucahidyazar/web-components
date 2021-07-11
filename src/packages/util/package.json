@@ -1,6 +1,6 @@
 {
   "name": "@mucahidyazar/util",
-  "version": "1.0.40",
+  "version": "1.0.0",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
