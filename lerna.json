@@ -1,8 +1,5 @@
 {
-  "packages": [
-    "src/packages/*"
-  ],
-  "version": "independent",
+  "packages": ["src/packages/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -13,10 +10,7 @@
       "registry": "https://registry.npmjs.org",
       "conventionalCommits": true,
       "message": "chore(release): Version bumped %s",
-      "ignoreChanges": [
-        "**/stories/**",
-        "**/tests/**"
-      ],
+      "ignoreChanges": ["**/stories/**", "**/tests/**"],
       "allowBranch": "main"
     }
   }
