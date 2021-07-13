@@ -1,0 +1,22 @@
+{
+  "packages": ["src/packages/*"],
+
+  // independent yaparak aslinda packagelerin hepsi icin ayri version numarasi tutariz. Eger burayi 1.0.0 yaparsak tum packageler bir sonraki guncellemede 1.0.1 olurlar buraya gore.
+  "version": "independent",
+  "npmClient": "yarn",
+
+  // Eger burasi true ise buradaki packages ler package.jsondaki packageslere overwritten olur yani uzerine yazilir
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org",
+      // "conventionalCommits": true, // Bunu eklemezsek major minor alpha beta gibi secenekler ve version numalarini biz seceriz, Eklersek otomatik kendi secer
+      "message": "chore(release): Version bumped %s",
+      "ignoreChanges": ["**/stories/**", "**/tests/**"],
+      "allowBranch": "main"
+    }
+  }
+}

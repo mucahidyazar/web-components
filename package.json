@@ -32,8 +32,10 @@
     "build:storybook": "build-storybook -s public",
     "build": "lerna run build --no-private --stream",
     "build:pre": "yarn pkg babel-plugin build",
-    "bootstrap": "lerna bootstrap --use-workspaces",
-    "publish": "lerna publish"
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "clean:dist": "yarn lerna exec -- rimraf dist"
   },
   "eslintConfig": {
     "extends": [
