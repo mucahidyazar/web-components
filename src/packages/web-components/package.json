@@ -1,6 +1,6 @@
 {
   "name": "@mucahidyazar/web-components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@mucahidyazar/button": "1.0.1",
-    "@mucahidyazar/icon": "1.0.6",
+    "@mucahidyazar/icon": "1.0.7",
     "@mucahidyazar/icons": "1.0.2",
     "@mucahidyazar/typography": "1.0.2",
     "@mucahidyazar/util": "1.0.1"
