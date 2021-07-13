@@ -1,8 +1,6 @@
 {
-  "packages": [
-    "src/packages/*"
-  ],
-  "version": "1.0.6",
+  "packages": ["src/packages/*"],
+  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -11,12 +9,8 @@
     },
     "publish": {
       "registry": "https://registry.npmjs.org",
-      "conventionalCommits": true,
       "message": "chore(release): Version bumped %s",
-      "ignoreChanges": [
-        "**/stories/**",
-        "**/tests/**"
-      ],
+      "ignoreChanges": ["**/stories/**", "**/tests/**"],
       "allowBranch": "main"
     }
   }
