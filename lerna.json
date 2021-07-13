@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "src/packages/*"
-  ],
+  "packages": ["src/packages/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -12,12 +10,8 @@
       "registry": "https://registry.npmjs.org",
       "conventionalCommits": true,
       "message": "chore(release): Version bumped %s",
-      "ignoreChanges": [
-        "**/stories/**",
-        "**/tests/**"
-      ],
+      "ignoreChanges": ["**/stories/**", "**/tests/**"],
       "allowBranch": "main"
     }
-  },
-  "version": "1.0.5"
+  }
 }
