@@ -1,6 +1,6 @@
 {
   "name": "@mucahidyazar/icon",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
