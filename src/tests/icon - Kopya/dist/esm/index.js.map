@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.js"],"names":["default"],"mappings":"AAAA,cAAc,QAAd;AACA,SAASA,OAAT,QAAwB,QAAxB;AACA,cAAc,eAAd","sourcesContent":["export * from \"./icon\";\r\nexport { default } from \"./icon\";\r\nexport * from \"./create-icon\";\r\n"],"file":"index.js"}
