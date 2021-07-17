@@ -1,7 +1,20 @@
-54 error Error: Command failed with exit code 128: git tag @mucahid-ui/button@1.0.1 -m @mucahid-ui/button@1.0.1
-54 error fatal: tag '@mucahid-ui/button@1.0.1' already exists
-54 error     at makeError (C:\Users\dev\Desktop\dev\web-components\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
-54 error     at handlePromise (C:\Users\dev\Desktop\dev\web-components\node_modules\@lerna\child-process\node_modules\execa\index.js:118:26)
-54 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-54 error     at async Promise.all (index 0)
-54 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\dev\Desktop\dev\web-components
+3 info versioning independent
+4 error JSONError: Unexpected token "g" (0x67) in JSON at position 995 while parsing near "...aa045eb923f292a39  \"gitHead\": \"a37774c5d..." in src\packages\icon1\package.json
+4 error
+4 error [0m [90m 32 |[39m   [32m"keywords"[39m[33m:[39m [][33m,[39m[0m
+4 error [0m [90m 33 |[39m   [32m"author"[39m[33m:[39m [32m""[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 34 |[39m   [32m"license"[39m[33m:[39m [32m"ISC"[39m[33m,[39m  [32m"gitHead"[39m[33m:[39m [32m"aa045eb923f292a39  "[39mgitHead[32m": "[39ma37774c5d8df0d6b308c456f9030a5a00435ac5d[32m"[39m[0m
+4 error [0m [90m    |[39m                                                      [31m[1m^[22m[39m[0m
+4 error [0m [90m 35 |[39m[0m
+4 error
+4 error     at parseJson (C:\Users\dev\Desktop\dev\web-components\node_modules\parse-json\index.js:29:21)
+4 error     at parse (C:\Users\dev\Desktop\dev\web-components\node_modules\load-json-file\index.js:15:9)
+4 error     at module.exports (C:\Users\dev\Desktop\dev\web-components\node_modules\load-json-file\index.js:18:47)
