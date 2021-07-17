@@ -1,6 +1,6 @@
 {
   "name": "@mucahidyazar/web-components",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -26,8 +26,8 @@
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .js,.jsx -d dist/cjs --source-maps"
   },
   "dependencies": {
-    "@mucahidyazar/button": "1.0.1",
-    "@mucahidyazar/icon": "1.0.9",
+    "@mucahidyazar/button": "1.0.2",
+    "@mucahidyazar/icon": "1.0.10",
     "@mucahidyazar/icons": "1.0.2",
     "@mucahidyazar/typography": "1.0.2",
     "@mucahidyazar/util": "1.0.1"
