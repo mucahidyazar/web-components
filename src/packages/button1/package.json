@@ -1,6 +1,6 @@
 {
-  "name": "@mucahid-ui/button",
-  "version": "1.0.12",
+  "name": "@mucahid-ui/button1",
+  "version": "1.0.13",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -25,5 +25,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "baefce92f5cc9c2d2acce157ef4f561a2be52336"
+  "gitHead": "c557093d0a1d4ea91ce8139cfa14596328da2fae"
 }
