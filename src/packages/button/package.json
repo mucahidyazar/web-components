@@ -1,6 +1,6 @@
 {
   "name": "@mucahid-ui/button",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
