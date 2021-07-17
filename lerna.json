@@ -3,12 +3,12 @@
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "private": true,
   "command": {
     "version": {
       "exact": true
     },
     "publish": {
-      "private": true,
       "registry": "https://registry.npmjs.org",
       "message": "chore(release): Version bumped %s",
       "ignoreChanges": ["**/stories/**", "**/tests/**"],
