@@ -1,5 +1,5 @@
 {
-  "name": "@mucahid-ui/icon1",
+  "name": "@mucahid-ui/icon2",  
   "version": "1.0.2",
   "description": "",
   "sideEffects": false,
@@ -10,6 +10,9 @@
       "require": "./dist/cjs/index.js",
       "default": "./dist/esm/index.js"
     }
+  },
+  "publishConfig": {
+    "access": "restricted"
   },
   "files": [
     "dist"
@@ -28,6 +31,4 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "gitHead": "a37774c5d8df0d6b308c456f9030a5a00435ac5d"
-}
+  "license": "ISC",  "gitHead": "aa045eb923f292a39  "gitHead": "a37774c5d8df0d6b308c456f9030a5a00435ac5d"
